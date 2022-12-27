@@ -1,0 +1,61 @@
+.cont{ display: none;}
+@media screen and (max-width: 995px) {
+    .respo1 {
+     margin-top: 90px; 
+     height: 220px
+    }
+   .cont{
+    display:block;
+    margin-top: 10px;
+   }
+  .coursel-text{
+    color: rgb(255, 255, 255);
+text-align: center;
+font-size: 5vw;
+margin-bottom: -8px;
+text-shadow: 1px 1px rgb(0, 0, 0);
+
+
+  }
+  .coursel-img{filter: blur(0.9px)
+    ; height: 260px ;
+    
+  }
+  
+  .coursel-div{
+    position: static;
+    height: 280px
+  }}
+
+  .hover-blur-pic:hover{
+    filter:blur(0.8px)
+  }
+  .inside-img-text{
+   
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;}
+    .inside-img-text:hover{
+        display: block;
+    }
+
+    .button-slide{
+      margin-bottom: 150px;
+    }
+    @media screen and (max-width: 500px){
+      .coursel-img{filter: blur(0.9px)
+        ; height: 240px ;
+        
+      }
+      .coursel-div{
+        position: static;
+        height: 268px
+      }
+    }
+ 
+    
